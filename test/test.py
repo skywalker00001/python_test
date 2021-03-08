@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 
-'''
+
 def f(x):
     y = np.exp(-1 * (x ** 2) / 2) / (2 * math.pi) ** 0.5
     #y = np.exp(x)
@@ -25,7 +25,7 @@ df1 = pd.DataFrame(np.random.randn(3, 3), index=list1, columns=list('ABC'))
 
 print(3>2>2)
 
-'''
+
 
 x1 = []
 print(range(5) + 1)
