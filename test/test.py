@@ -28,4 +28,3 @@ print(3>2>2)
 
 
 x1 = []
-print(range(5) + 1)
