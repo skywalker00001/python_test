@@ -50,8 +50,8 @@ import numpy as np
 
 t1 = pd.DataFrame(np.arange(12).reshape(3, 4), index=list('abc'), columns=list('wxyz'))
 # print(t1)
-print(t1['x'])
-print(t1['z'])
+#print(t1['x'])
+#print(t1['z'])
 
 ac = t1.loc[['a', 'c'], :]
 acc = t1.loc['a': 'c', :]
