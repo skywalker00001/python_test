@@ -88,10 +88,12 @@ def itanh(x):
 def plot_sigmoid():
     # param:起点，终点，间距
     x = np.arange(-8, 8, 0.2)
-    y = itanh(x)
+    #y = itanh(x)
+    y = sigmoid(x)
     plt.plot(x, y)
     plt.show()
 
 
 if __name__ == '__main__':
     plot_sigmoid()
+
